@@ -1,3 +1,10 @@
+---
+name: claude-code-hooks-实战笔记
+description: Claude Code Hooks 系统的 PreToolUse / PostToolUse 实战配置案例
+date: 2025-05-13
+metadata:
+  type: reference
+---
 
 Claude Code 的 Hooks 系统允许在工具调用前后执行自定义脚本，用于自动化工作流、安全检查、代码质量保障等场景。本文档记录了两个实际配置的 hook 案例。
 

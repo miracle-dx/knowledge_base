@@ -1,3 +1,11 @@
+---
+name: claude-code-review-指令使用文档（初版）
+description: 基于使用经验推测整理的 /review 指令工作流程和使用方法
+date: 2025-05-13
+metadata:
+  type: reference
+---
+
 ## 一、指令简介
 
 `/review` 是 Claude Code 内置的**代码审查指令**，用于自动化对 GitHub Pull Request 进行专业代码评审。它会调用 `gh` CLI 工具拉取 PR 的元信息和 diff，然后由 Claude 进行多维度分析，输出结构化的 review 报告。
